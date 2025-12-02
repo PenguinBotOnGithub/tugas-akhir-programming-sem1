@@ -1,1 +1,7 @@
-# tugas-akhir-programming-sem1-Bank management
+# Tugas Akhir Kelompok 5
+Judul: Bank Management System
+## Anggota:
+- Eureka
+- Farhan
+- Fasik
+- Andra
