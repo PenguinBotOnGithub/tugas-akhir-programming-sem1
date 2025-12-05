@@ -24,6 +24,7 @@ void start_menu_loop() {
         switch (input) {
             case 1: {
                 printf("FIXME: Implement login function");
+                login();
                 break;
             }
             case 2: {
