@@ -8,6 +8,7 @@ using namespace std;
 
 vector<Account> accounts = {};
 vector<Account> transaction_records = {};
+Account* logged_in_account = NULL;
 
 int main() {
     printf("============================================================\n");

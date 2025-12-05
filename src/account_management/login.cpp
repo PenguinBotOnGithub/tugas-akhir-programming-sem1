@@ -14,6 +14,7 @@ void login() {
     printf("|    Login System   |\n");
     printf("=====================\n");
 
+    Account* acc = NULL;
     while (true) {
         string username;
         string password;
@@ -22,7 +23,7 @@ void login() {
         printf("Password: ");
         cin >> password;
 
-        Account* acc = check_user_existence(username);
+        acc = check_user_existence(username);
         if (acc == NULL) {
             printf("Account not found!\n\n");
             goto try_again;
@@ -53,6 +54,7 @@ void login() {
         }
     }
 
+    logged_in_account = acc;
     main_menu_loop();
 }
 
