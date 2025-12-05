@@ -8,6 +8,6 @@ Judul: Bank Management System
 ## Dependencies
 - Compiler C++
 ## Cara Menjalankan Program
-```
+```sh
 make compile_program
 ```
