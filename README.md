@@ -5,3 +5,7 @@ Judul: Bank Management System
 - Farhan
 - Fasik
 - Andra
+## Dependencies
+- Compiler C++
+## Cara Menjalankan Program
+`make compile_program`
