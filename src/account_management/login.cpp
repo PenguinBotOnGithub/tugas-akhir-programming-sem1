@@ -60,6 +60,10 @@ void login() {
 
 Account* check_user_existence(string& username) {
     for (Account& account : accounts) {
+        if (account.deleted) {
+            continue;
+        }
+
         if (account.name == username) {
             return &account;
         }
