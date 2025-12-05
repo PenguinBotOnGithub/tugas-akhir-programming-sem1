@@ -6,7 +6,8 @@ Judul: Bank Management System
 - Fasik
 - Andra
 ## Dependencies
-- Compiler C++
+- g++
+- ld
 ## Cara Menjalankan Program
 ```sh
 make compile_program
