@@ -2,10 +2,11 @@
 #define _GLOBALS_
 
 #include "types.hpp"
+#include <vector>
 
 // Initialized in main.cpp
-extern Account* accounts;
+extern vector<Account> accounts;
 // Initialized in main.cpp
-extern TransactionRecord* transaction_records;
+extern vector<Account> transaction_records;
 
 #endif
