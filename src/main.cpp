@@ -7,7 +7,7 @@
 using namespace std;
 
 vector<Account> accounts = {};
-vector<Account> transaction_records = {};
+vector<TransactionRecord> transaction_records = {};
 Account* logged_in_account = NULL;
 
 int main() {
