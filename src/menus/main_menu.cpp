@@ -1,6 +1,8 @@
 #include <cstdio>
 #include <iostream>
+#include <inttypes.h>
 #include "menus.hpp"
+#include "../transaction/transaction.hpp"
 #include "../globals.hpp"
 #include "../account_management/account_management.hpp"
 
@@ -31,15 +33,15 @@ void main_menu_loop() {
             goto print_actions;
         }
         case '2': {
-            printf("FIXME: deposit function not implemented yet!\n\n");
+            deposit();
             goto print_actions;
         }
         case '3': {
-            printf("FIXME: withdraw function not implemented yet!\n\n");
+            withdraw_money();
             goto print_actions;
         }
         case '4': {
-            printf("FIXME: transfer function not implemented yet!\n\n");
+            transfer_money();
             goto print_actions;
         }
         case '5': {
