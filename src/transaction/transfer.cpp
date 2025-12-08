@@ -66,5 +66,5 @@ void transfer_money() {
     transaction_records.push_back(tr);
 
     cout << "Transfer successful!\n";
-    cout << "You sent " << amount << " to " << receiver->name << ".\n";
+    cout << "You sent " << amount << " to " << receiver->name << ".\n\n";
 }

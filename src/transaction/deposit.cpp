@@ -24,5 +24,5 @@ void deposit() {
     tr.amount = amount;
     transaction_records.push_back(tr);
 
-    cout << "Deposit successful!\n";
+    cout << "Deposit successful!\n\n";
 }

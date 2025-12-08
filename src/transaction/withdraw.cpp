@@ -26,5 +26,5 @@ void withdraw_money() {
     tr.amount = amount;
     transaction_records.push_back(tr);
 
-    cout << "Withdraw successful!\n";
+    cout << "Withdraw successful!\n\n";
 }
