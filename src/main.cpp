@@ -1,3 +1,4 @@
+#include <cstdint>
 #include <cstdio>
 
 #include "types.hpp"
@@ -11,6 +12,14 @@ vector<TransactionRecord> transaction_records = {};
 Account* logged_in_account = NULL;
 
 int main() {
+   // setup admin account
+    accounts.push_back({
+        .name = "admin",
+        .password = "admin",
+        .balance = INT64_MAX,
+        .deleted = false
+    });
+
     printf("============================================================\n");
     printf("|                  BANK MANAGEMENT SYSTEM                  |\n");
     printf("============================================================\n");
