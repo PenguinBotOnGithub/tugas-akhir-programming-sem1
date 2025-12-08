@@ -1,7 +1,8 @@
 account_management:
 	g++ -c src/account_management/register.cpp -o bin/register.o
 	g++ -c src/account_management/login.cpp -o bin/login.o
-	ld --relocatable bin/register.o bin/login.o -o bin/account_management.o
+	g++ -c src/account_management/info.cpp -o bin/info.o
+	ld --relocatable bin/register.o bin/login.o bin/info.o -o bin/account_management.o
 menus:
 	g++ -c src/menus/start_menu.cpp -o bin/start_menu.o
 	g++ -c src/menus/main_menu.cpp -o bin/main_menu.o

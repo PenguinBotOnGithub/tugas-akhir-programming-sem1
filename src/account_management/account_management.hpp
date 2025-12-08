@@ -3,5 +3,6 @@
 
 void register_account();
 void login();
+void check_balance();
 
 #endif

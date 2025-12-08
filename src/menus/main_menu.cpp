@@ -2,6 +2,7 @@
 #include <iostream>
 #include "menus.hpp"
 #include "../globals.hpp"
+#include "../account_management/account_management.hpp"
 
 using namespace std;
 
@@ -26,7 +27,7 @@ void main_menu_loop() {
     cin >> input;
     switch (input) {
         case '1': {
-            printf("FIXME: check balance function not implemented yet!\n\n");
+            check_balance();
             goto print_actions;
         }
         case '2': {
