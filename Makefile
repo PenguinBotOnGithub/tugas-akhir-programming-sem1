@@ -17,3 +17,5 @@ compile_program: account_management menus transaction
 	g++ src/main.cpp bin/account_management.o bin/menus.o bin/transaction.o -o bin/program
 clean:
 	rm bin/*
+run:
+	bin/program
