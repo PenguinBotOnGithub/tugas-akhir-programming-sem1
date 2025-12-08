@@ -43,8 +43,8 @@ void main_menu_loop() {
             goto print_actions;
         }
         case '5': {
-            printf("FIXME: delete account function not implemented yet!\n\n");
-            goto print_actions;
+            delete_account();
+            return;
         }
         case '6': {
             logged_in_account = NULL;

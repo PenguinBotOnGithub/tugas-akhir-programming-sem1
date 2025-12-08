@@ -4,5 +4,6 @@
 void register_account();
 void login();
 void check_balance();
+void delete_account();
 
 #endif
