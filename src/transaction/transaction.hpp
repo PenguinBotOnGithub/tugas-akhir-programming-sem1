@@ -4,5 +4,6 @@
 void transfer_money();
 void deposit();
 void withdraw_money();
+void transaction_logs();
 
 #endif

@@ -53,6 +53,10 @@ void main_menu_loop() {
             printf("Logging out...\n");
             return;
         }
+        case '7': {
+            transaction_logs();
+            goto print_actions;
+        }
         default: {
             printf("Not a valid answer!\n\n");
             goto print_actions;
