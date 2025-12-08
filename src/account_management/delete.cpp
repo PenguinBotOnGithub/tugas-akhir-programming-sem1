@@ -6,5 +6,5 @@ using namespace std;
 void delete_account() {
     cout << endl;
     logged_in_account->deleted = true;
-    cout << "Akun sudah dihapus." << endl;
+    cout << "Account deleted!" << endl;
 }

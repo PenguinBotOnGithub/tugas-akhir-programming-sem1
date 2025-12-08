@@ -6,6 +6,6 @@ using namespace std;
 
 void check_balance() {
     cout << endl;
-    cout << "Saldo Anda saat ini: Rp " << logged_in_account->balance<< endl;
+    cout << "Your account's balance is: Rp " << logged_in_account->balance<< endl;
     cout << endl;
 }
